@@ -12,15 +12,15 @@ public class KDVTutari {
 		if(miktar>=0&&miktar<=1000) {
 			KDVTutari=miktar*0.18;
 			KDVliFiyat=KDVTutari+miktar;
-			System.out.println("KDV tutarý: "+KDVTutari+" KDVli fiyat: "+KDVliFiyat);
+			System.out.println("KDV tutari: "+KDVTutari+" KDVli fiyat: "+KDVliFiyat);
 		}
 		else if(miktar>1000) {
 			KDVTutari=miktar*0.08;
 			KDVliFiyat=KDVTutari+miktar;
-			System.out.println("KDV tutarý: "+KDVTutari+" KDVli fiyat: "+KDVliFiyat);
+			System.out.println("KDV tutari: "+KDVTutari+" KDVli fiyat: "+KDVliFiyat);
 		}
 		else {
-			System.out.println("Hatalý tutar giriþi!");
+			System.out.println("Hatali tutar girisi!");
 		}
 	}
 
