@@ -10,7 +10,7 @@ public class HesapMakinesi {
 		System.out.println("Ýkinci sayi:");
 		sayi2=scan.nextInt();
 		
-		System.out.println("1-Toplama\n2-Cýkarma\n3-Carpma\n4-Bolme ");
+		System.out.println("1-Toplama\n2-Cikarma\n3-Carpma\n4-Bolme ");
 		System.out.println("Secim yapinin: ");
 		
 		secim=scan.nextInt();
